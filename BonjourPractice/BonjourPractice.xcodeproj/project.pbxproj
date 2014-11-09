@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79E685151A0F657000FAA25A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E685141A0F657000FAA25A /* AppDelegate.swift */; };
+		79E685171A0F657000FAA25A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79E685161A0F657000FAA25A /* Images.xcassets */; };
+		79E6851A1A0F657000FAA25A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79E685181A0F657000FAA25A /* MainMenu.xib */; };
+		79E685261A0F657000FAA25A /* BonjourPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E685251A0F657000FAA25A /* BonjourPracticeTests.swift */; };
+		79E685301A0F65DE00FAA25A /* SharedPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E6852F1A0F65DE00FAA25A /* SharedPoint.swift */; };
+		79E685321A0F677D00FAA25A /* SharedBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E685311A0F677D00FAA25A /* SharedBrowser.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79E685201A0F657000FAA25A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79E685071A0F657000FAA25A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79E6850E1A0F657000FAA25A;
+			remoteInfo = BonjourPractice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79E6850F1A0F657000FAA25A /* BonjourPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BonjourPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E685131A0F657000FAA25A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79E685141A0F657000FAA25A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		79E685161A0F657000FAA25A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		79E685191A0F657000FAA25A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		79E6851F1A0F657000FAA25A /* BonjourPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BonjourPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E685241A0F657000FAA25A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79E685251A0F657000FAA25A /* BonjourPracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonjourPracticeTests.swift; sourceTree = "<group>"; };
+		79E6852F1A0F65DE00FAA25A /* SharedPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SharedPoint.swift; path = ../SharedPoint.swift; sourceTree = "<group>"; };
+		79E685311A0F677D00FAA25A /* SharedBrowser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SharedBrowser.swift; path = ../SharedBrowser.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79E6850C1A0F657000FAA25A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E6851C1A0F657000FAA25A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79E685061A0F657000FAA25A = {
+			isa = PBXGroup;
+			children = (
+				79E685111A0F657000FAA25A /* BonjourPractice */,
+				79E685221A0F657000FAA25A /* BonjourPracticeTests */,
+				79E685101A0F657000FAA25A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79E685101A0F657000FAA25A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79E6850F1A0F657000FAA25A /* BonjourPractice.app */,
+				79E6851F1A0F657000FAA25A /* BonjourPracticeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79E685111A0F657000FAA25A /* BonjourPractice */ = {
+			isa = PBXGroup;
+			children = (
+				79E685311A0F677D00FAA25A /* SharedBrowser.swift */,
+				79E6852F1A0F65DE00FAA25A /* SharedPoint.swift */,
+				79E685141A0F657000FAA25A /* AppDelegate.swift */,
+				79E685161A0F657000FAA25A /* Images.xcassets */,
+				79E685181A0F657000FAA25A /* MainMenu.xib */,
+				79E685121A0F657000FAA25A /* Supporting Files */,
+			);
+			path = BonjourPractice;
+			sourceTree = "<group>";
+		};
+		79E685121A0F657000FAA25A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79E685131A0F657000FAA25A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79E685221A0F657000FAA25A /* BonjourPracticeTests */ = {
+			isa = PBXGroup;
+			children = (
+				79E685251A0F657000FAA25A /* BonjourPracticeTests.swift */,
+				79E685231A0F657000FAA25A /* Supporting Files */,
+			);
+			path = BonjourPracticeTests;
+			sourceTree = "<group>";
+		};
+		79E685231A0F657000FAA25A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79E685241A0F657000FAA25A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79E6850E1A0F657000FAA25A /* BonjourPractice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79E685291A0F657000FAA25A /* Build configuration list for PBXNativeTarget "BonjourPractice" */;
+			buildPhases = (
+				79E6850B1A0F657000FAA25A /* Sources */,
+				79E6850C1A0F657000FAA25A /* Frameworks */,
+				79E6850D1A0F657000FAA25A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BonjourPractice;
+			productName = BonjourPractice;
+			productReference = 79E6850F1A0F657000FAA25A /* BonjourPractice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79E6851E1A0F657000FAA25A /* BonjourPracticeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79E6852C1A0F657000FAA25A /* Build configuration list for PBXNativeTarget "BonjourPracticeTests" */;
+			buildPhases = (
+				79E6851B1A0F657000FAA25A /* Sources */,
+				79E6851C1A0F657000FAA25A /* Frameworks */,
+				79E6851D1A0F657000FAA25A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79E685211A0F657000FAA25A /* PBXTargetDependency */,
+			);
+			name = BonjourPracticeTests;
+			productName = BonjourPracticeTests;
+			productReference = 79E6851F1A0F657000FAA25A /* BonjourPracticeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79E685071A0F657000FAA25A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Chuan-Yen Chiang";
+				TargetAttributes = {
+					79E6850E1A0F657000FAA25A = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					79E6851E1A0F657000FAA25A = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 79E6850E1A0F657000FAA25A;
+					};
+				};
+			};
+			buildConfigurationList = 79E6850A1A0F657000FAA25A /* Build configuration list for PBXProject "BonjourPractice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79E685061A0F657000FAA25A;
+			productRefGroup = 79E685101A0F657000FAA25A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79E6850E1A0F657000FAA25A /* BonjourPractice */,
+				79E6851E1A0F657000FAA25A /* BonjourPracticeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79E6850D1A0F657000FAA25A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E685171A0F657000FAA25A /* Images.xcassets in Resources */,
+				79E6851A1A0F657000FAA25A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E6851D1A0F657000FAA25A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79E6850B1A0F657000FAA25A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E685151A0F657000FAA25A /* AppDelegate.swift in Sources */,
+				79E685301A0F65DE00FAA25A /* SharedPoint.swift in Sources */,
+				79E685321A0F677D00FAA25A /* SharedBrowser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E6851B1A0F657000FAA25A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E685261A0F657000FAA25A /* BonjourPracticeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79E685211A0F657000FAA25A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79E6850E1A0F657000FAA25A /* BonjourPractice */;
+			targetProxy = 79E685201A0F657000FAA25A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79E685181A0F657000FAA25A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79E685191A0F657000FAA25A /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79E685271A0F657000FAA25A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79E685281A0F657000FAA25A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		79E6852A1A0F657000FAA25A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BonjourPractice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		79E6852B1A0F657000FAA25A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BonjourPractice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		79E6852D1A0F657000FAA25A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BonjourPracticeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BonjourPractice.app/Contents/MacOS/BonjourPractice";
+			};
+			name = Debug;
+		};
+		79E6852E1A0F657000FAA25A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BonjourPracticeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BonjourPractice.app/Contents/MacOS/BonjourPractice";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79E6850A1A0F657000FAA25A /* Build configuration list for PBXProject "BonjourPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E685271A0F657000FAA25A /* Debug */,
+				79E685281A0F657000FAA25A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79E685291A0F657000FAA25A /* Build configuration list for PBXNativeTarget "BonjourPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E6852A1A0F657000FAA25A /* Debug */,
+				79E6852B1A0F657000FAA25A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		79E6852C1A0F657000FAA25A /* Build configuration list for PBXNativeTarget "BonjourPracticeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E6852D1A0F657000FAA25A /* Debug */,
+				79E6852E1A0F657000FAA25A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79E685071A0F657000FAA25A /* Project object */;
+}
